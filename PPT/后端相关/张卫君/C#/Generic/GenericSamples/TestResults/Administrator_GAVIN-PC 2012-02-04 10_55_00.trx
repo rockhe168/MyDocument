@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="eb75b04e-f8db-4c8f-bdc4-f3c55db75542" name="Administrator@GAVIN-PC 2012-02-04 10:55:00" runUser="GAVIN-PC\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="715ea75e-9d9c-4961-830e-9707a848cdd5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="E:\Projects\Architecture\Generic\GenericSamples\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_GAVIN-PC 2012-02-04 10_55_00">
+      <DeploymentItem filename="E:\Projects\Architecture\Generic\GenericSamples\GenericLib\bin\Debug\GenericLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-04T10:55:00.0312500+08:00" queuing="2012-02-04T10:55:00.1406250+08:00" start="2012-02-04T10:55:00.1562500+08:00" finish="2012-02-04T10:55:01.3437500+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PerformanceCompare" storage="e:\projects\architecture\generic\genericsamples\genericsamples\bin\debug\genericsamples.dll" id="6f79e222-ed0a-cd46-e8e9-09a606b5ca95">
+      <Execution id="4aef4742-6860-437f-b44f-f279e7ec6b43" />
+      <TestMethod codeBase="E:/Projects/Architecture/Generic/GenericSamples/GenericSamples/bin/Debug/GenericSamples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenericSamples.UnitTest1, GenericSamples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PerformanceCompare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6f79e222-ed0a-cd46-e8e9-09a606b5ca95" executionId="4aef4742-6860-437f-b44f-f279e7ec6b43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4aef4742-6860-437f-b44f-f279e7ec6b43" testId="6f79e222-ed0a-cd46-e8e9-09a606b5ca95" testName="PerformanceCompare" computerName="GAVIN-PC" duration="00:00:00.9272567" startTime="2012-02-04T10:55:00.1718750+08:00" endTime="2012-02-04T10:55:01.3281250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4aef4742-6860-437f-b44f-f279e7ec6b43">
+      <Output>
+        <StdOut>.14 秒 (GCs=  5) List&lt;Int32&gt;
+   .34 秒 (GCs=  3) ArryList of Int32
+   .19 秒 (GCs=  3) List&lt;string&gt;
+   .22 秒 (GCs=  4) ArryList of X</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

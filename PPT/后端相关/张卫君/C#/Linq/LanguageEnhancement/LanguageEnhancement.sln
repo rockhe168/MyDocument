@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{A6AD18D1-BA06-4CFA-8EAC-297268D7C982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A31EDB7-7672-44C9-9DD3-FFF0F3BC185B}"
+	ProjectSection(SolutionItems) = preProject
+		LanguageEnhancement.vsmdi = LanguageEnhancement.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageEnhancementLib", "LanguageEnhancementLib\LanguageEnhancementLib.csproj", "{E9C34EAE-606F-45E2-AD8F-ED0150A279B2}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = LanguageEnhancement.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6AD18D1-BA06-4CFA-8EAC-297268D7C982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AD18D1-BA06-4CFA-8EAC-297268D7C982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AD18D1-BA06-4CFA-8EAC-297268D7C982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AD18D1-BA06-4CFA-8EAC-297268D7C982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C34EAE-606F-45E2-AD8F-ED0150A279B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C34EAE-606F-45E2-AD8F-ED0150A279B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C34EAE-606F-45E2-AD8F-ED0150A279B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C34EAE-606F-45E2-AD8F-ED0150A279B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

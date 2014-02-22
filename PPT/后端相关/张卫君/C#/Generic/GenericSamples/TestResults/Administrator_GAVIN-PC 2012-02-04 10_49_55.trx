@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a190a601-75a1-47d9-8fcf-a4c52d1c559f" name="Administrator@GAVIN-PC 2012-02-04 10:49:55" runUser="GAVIN-PC\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="715ea75e-9d9c-4961-830e-9707a848cdd5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="E:\Projects\Architecture\Generic\GenericSamples\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_GAVIN-PC 2012-02-04 10_49_55">
+      <DeploymentItem filename="E:\Projects\Architecture\Generic\GenericSamples\GenericLib\bin\Debug\GenericLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-04T10:49:55.0625000+08:00" queuing="2012-02-04T10:49:55.0625000+08:00" start="2012-02-04T10:49:55.0625000+08:00" finish="2012-02-04T10:49:56.2031250+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PerformanceCompare" storage="e:\projects\architecture\generic\genericsamples\genericsamples\bin\debug\genericsamples.dll" id="6f79e222-ed0a-cd46-e8e9-09a606b5ca95">
+      <Execution id="05dec5b4-40d3-418b-baa6-46c55ef01b2a" />
+      <TestMethod codeBase="E:/Projects/Architecture/Generic/GenericSamples/GenericSamples/bin/Debug/GenericSamples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenericSamples.UnitTest1, GenericSamples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PerformanceCompare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6f79e222-ed0a-cd46-e8e9-09a606b5ca95" executionId="05dec5b4-40d3-418b-baa6-46c55ef01b2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="05dec5b4-40d3-418b-baa6-46c55ef01b2a" testId="6f79e222-ed0a-cd46-e8e9-09a606b5ca95" testName="PerformanceCompare" computerName="GAVIN-PC" duration="00:00:00.9524329" startTime="2012-02-04T10:49:55.0625000+08:00" endTime="2012-02-04T10:49:56.1875000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05dec5b4-40d3-418b-baa6-46c55ef01b2a">
+      <Output>
+        <StdOut>.88 秒 (GCs=  8) List&lt;Int32&gt;</StdOut>
+        <ErrorInfo>
+          <Message>测试方法 GenericSamples.UnitTest1.PerformanceCompare 引发了异常: 
+System.OutOfMemoryException: 引发类型为“System.OutOfMemoryException”的异常。</Message>
+          <StackTrace>    在 System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   在 System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   在 System.Collections.Generic.List`1.Add(T item)
+   在 GenericLib.PerformanceTest.ValueTypePerfTest() 位置 E:\Projects\Architecture\Generic\GenericSamples\GenericLib\PerformanceTest.cs:行号 55
+   在 GenericSamples.UnitTest1.PerformanceCompare() 位置 E:\Projects\Architecture\Generic\GenericSamples\GenericSamples\UnitTest1.cs:行号 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

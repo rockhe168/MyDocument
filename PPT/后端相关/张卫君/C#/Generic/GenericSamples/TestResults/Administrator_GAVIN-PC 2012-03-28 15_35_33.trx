@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="307292df-88f1-4c31-a7fb-2cc300e49750" name="Administrator@GAVIN-PC 2012-03-28 15:35:33" runUser="GAVIN-PC\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="715ea75e-9d9c-4961-830e-9707a848cdd5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_GAVIN-PC 2012-03-28 15_35_33">
+      <DeploymentItem filename="E:\Projects\Architecture\Framework\GenericSamples\GenericLib\bin\Debug\GenericLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-28T15:35:33.5079136+08:00" queuing="2012-03-28T15:35:35.3985386+08:00" start="2012-03-28T15:35:35.5079136+08:00" finish="2012-03-28T15:35:38.2266636+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GerericAdvantageTest" storage="e:\projects\architecture\framework\genericsamples\genericsamples\bin\debug\genericsamples.dll" id="bf81e825-f8e5-f251-29ef-5576d78d6ea4">
+      <Execution id="455147d0-8097-4b07-8c98-dcb5fe1000ab" />
+      <TestMethod codeBase="E:/Projects/Architecture/Framework/GenericSamples/GenericSamples/bin/Debug/GenericSamples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenericSamples.UnitTest1, GenericSamples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GerericAdvantageTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bf81e825-f8e5-f251-29ef-5576d78d6ea4" executionId="455147d0-8097-4b07-8c98-dcb5fe1000ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="455147d0-8097-4b07-8c98-dcb5fe1000ab" testId="bf81e825-f8e5-f251-29ef-5576d78d6ea4" testName="GerericAdvantageTest" computerName="GAVIN-PC" duration="00:00:02.1310024" startTime="2012-03-28T15:35:35.5235386+08:00" endTime="2012-03-28T15:35:38.1797886+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="455147d0-8097-4b07-8c98-dcb5fe1000ab">
+      <Output>
+        <StdOut>.22 秒 (GCs=  5) List&lt;Int32&gt;
+   .61 秒 (GCs=  4) ArryList of Int32
+   .55 秒 (GCs=  3) List&lt;string&gt;
+   .61 秒 (GCs=  4) ArryList of X</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

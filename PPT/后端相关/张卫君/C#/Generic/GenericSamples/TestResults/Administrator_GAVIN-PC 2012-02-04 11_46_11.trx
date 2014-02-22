@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4e80ba4a-6184-43f1-b8cc-cc781cee01f6" name="Administrator@GAVIN-PC 2012-02-04 11:46:11" runUser="GAVIN-PC\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="715ea75e-9d9c-4961-830e-9707a848cdd5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_GAVIN-PC 2012-02-04 11_46_11">
+      <DeploymentItem filename="E:\Projects\Architecture\Generic\GenericSamples\GenericLib\bin\Debug\GenericLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-04T11:46:11.9843750+08:00" queuing="2012-02-04T11:46:12.0156250+08:00" start="2012-02-04T11:46:12.0156250+08:00" finish="2012-02-04T11:46:12.2031250+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GenericClassTest" storage="e:\projects\architecture\generic\genericsamples\genericsamples\bin\debug\genericsamples.dll" id="427edb8b-9838-c88b-2f19-cd1bba83fb8a">
+      <Execution id="c8ccd4a3-7cde-48a5-8873-468ad4132870" />
+      <TestMethod codeBase="E:/Projects/Architecture/Generic/GenericSamples/GenericSamples/bin/Debug/GenericSamples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenericSamples.UnitTest1, GenericSamples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenericClassTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="427edb8b-9838-c88b-2f19-cd1bba83fb8a" executionId="c8ccd4a3-7cde-48a5-8873-468ad4132870" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c8ccd4a3-7cde-48a5-8873-468ad4132870" testId="427edb8b-9838-c88b-2f19-cd1bba83fb8a" testName="GenericClassTest" computerName="GAVIN-PC" duration="00:00:00.0201603" startTime="2012-02-04T11:46:12.0156250+08:00" endTime="2012-02-04T11:46:12.1875000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8ccd4a3-7cde-48a5-8873-468ad4132870">
+      <Output>
+        <StdOut>abC</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

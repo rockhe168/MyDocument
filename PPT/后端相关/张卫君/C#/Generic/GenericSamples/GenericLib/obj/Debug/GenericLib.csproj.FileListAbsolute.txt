@@ -1,0 +1,10 @@
+E:\Projects\Architecture\Generic\GenericSamples\GenericLib\bin\Debug\GenericLib.dll
+E:\Projects\Architecture\Generic\GenericSamples\GenericLib\bin\Debug\GenericLib.pdb
+E:\Projects\Architecture\Generic\GenericSamples\GenericLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Architecture\Generic\GenericSamples\GenericLib\obj\Debug\GenericLib.dll
+E:\Projects\Architecture\Generic\GenericSamples\GenericLib\obj\Debug\GenericLib.pdb
+E:\Projects\Architecture\Framework\GenericSamples\GenericLib\bin\Debug\GenericLib.dll
+E:\Projects\Architecture\Framework\GenericSamples\GenericLib\bin\Debug\GenericLib.pdb
+E:\Projects\Architecture\Framework\GenericSamples\GenericLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Architecture\Framework\GenericSamples\GenericLib\obj\Debug\GenericLib.dll
+E:\Projects\Architecture\Framework\GenericSamples\GenericLib\obj\Debug\GenericLib.pdb

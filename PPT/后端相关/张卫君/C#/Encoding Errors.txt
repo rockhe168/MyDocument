@@ -1,0 +1,15 @@
+﻿Due to the limitations of the supported zip file format, the following file(s) had to be renamed.
+
+Original File Name  ->  New File Name
+Generic/Framework 学习.docx -> Generic/File1.docx
+Generic/Generic(泛型).ppt -> Generic/File2.ppt
+Generic/教程.docx -> Generic/File3.docx
+IEnumerable/IEnumerable(迭代器).ppt -> IEnumerable/File4.ppt
+Linq/C# 3.0 新语法.docx -> Linq/File5.docx
+Linq/C#3.0新语法.ppt -> Linq/File6.ppt
+PPTs/20120917AM/C#类型操作.ppt -> PPTs/20120917AM/File7.ppt
+PPTs/20120917AM/Generic(泛型).ppt -> PPTs/20120917AM/File8.ppt
+PPTs/20120917PM/C#3.0新语法.ppt -> PPTs/20120917PM/File9.ppt
+PPTs/20120917PM/IEnumerable(迭代器).ppt -> PPTs/20120917PM/File10.ppt
+Types/C#类型操作.ppt -> Types/File11.ppt
+新框架.ppt -> File12.ppt

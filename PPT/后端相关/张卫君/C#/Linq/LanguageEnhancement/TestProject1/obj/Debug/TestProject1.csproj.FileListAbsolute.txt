@@ -1,0 +1,5 @@
+E:\Projects\Architecture\Framework\LanguageEnhancement\TestProject1\bin\Debug\TestProject1.dll
+E:\Projects\Architecture\Framework\LanguageEnhancement\TestProject1\bin\Debug\TestProject1.pdb
+E:\Projects\Architecture\Framework\LanguageEnhancement\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Architecture\Framework\LanguageEnhancement\TestProject1\obj\Debug\TestProject1.dll
+E:\Projects\Architecture\Framework\LanguageEnhancement\TestProject1\obj\Debug\TestProject1.pdb

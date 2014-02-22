@@ -1,0 +1,10 @@
+E:\Projects\Architecture\LanguageEnhancement\LanguageEnhancement\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Architecture\LanguageEnhancement\LanguageEnhancement\bin\Debug\LanguageEnhancement.dll
+E:\Projects\Architecture\LanguageEnhancement\LanguageEnhancement\bin\Debug\LanguageEnhancement.pdb
+E:\Projects\Architecture\LanguageEnhancement\LanguageEnhancement\obj\Debug\LanguageEnhancement.dll
+E:\Projects\Architecture\LanguageEnhancement\LanguageEnhancement\obj\Debug\LanguageEnhancement.pdb
+E:\Projects\Architecture\Framework\LanguageEnhancement\LanguageEnhancementLib\bin\Debug\LanguageEnhancement.dll
+E:\Projects\Architecture\Framework\LanguageEnhancement\LanguageEnhancementLib\bin\Debug\LanguageEnhancement.pdb
+E:\Projects\Architecture\Framework\LanguageEnhancement\LanguageEnhancementLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Architecture\Framework\LanguageEnhancement\LanguageEnhancementLib\obj\Debug\LanguageEnhancement.dll
+E:\Projects\Architecture\Framework\LanguageEnhancement\LanguageEnhancementLib\obj\Debug\LanguageEnhancement.pdb
